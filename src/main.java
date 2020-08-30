@@ -15,7 +15,7 @@ class Store implements Basket {
         stores.removeProduct("milk");
         showStore("Delete elements ", stores.store);
         stores.updateProductQuantity("bread", 3);
-        showStore("Change some much", stores.store);
+        showStore("Change quantity", stores.store);
     }
 
     private static void showStore(String title, List<Item> store) {
